@@ -24,7 +24,10 @@ class Posts extends Component {
     ));
 
     return (
-      postItems
+      <div>
+        <h1>Posts</h1>
+        {postItems}
+      </div>
     )
   }
 }
